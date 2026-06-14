@@ -83,9 +83,9 @@ if index < celkem_otazek:
         
         # Formátování odpovědí do st.radio
         volby = [
-            f"a) {aktualni['moznosti']}",
-            f"b) {aktualni['moznosti']}",
-            f"c) {aktualni['moznosti']}"
+            f"a) {aktualni['moznosti'][0]}",
+            f"b) {aktualni['moznosti'][1]}",
+            f"c) {aktualni['moznosti'][2]}"
         ]
         
         vyber = st.radio(
